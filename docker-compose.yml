@@ -22,10 +22,10 @@ services:
   mysql:
     image: mysql:8.0
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: bitrix
-      MYSQL_USER: bitrix
-      MYSQL_PASSWORD: bitrix
+      MYSQL_ROOT_PASSWORD:
+      MYSQL_DATABASE: root
+      MYSQL_USER: root
+      MYSQL_PASSWORD:
     volumes:
       - db_data:/var/lib/mysql
 
